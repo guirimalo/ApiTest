@@ -1,0 +1,9 @@
+com\ejemplos\testing\serenity\stepdefinitions\ParameterDefinitions.class
+com\ejemplos\testing\serenity\tasks\asserts\WikipediaArticle.class
+com\ejemplos\testing\serenity\stepdefinitions\WebHome.class
+com\ejemplos\testing\serenity\tasks\navigation\NavigateTo.class
+com\ejemplos\testing\serenity\tasks\asserts\LookForInformation.class
+com\ejemplos\testing\serenity\CucumberTestSuite.class
+com\ejemplos\testing\serenity\tasks\asserts\SearchForm.class
+com\ejemplos\testing\serenity\tasks\navigation\HomePage.class
+com\ejemplos\testing\serenity\tasks\navigation\ServiciosPage.class
