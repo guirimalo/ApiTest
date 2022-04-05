@@ -3,7 +3,9 @@ com\ejemplos\testing\serenity\tasks\search\Home.class
 com\ejemplos\testing\serenity\tasks\navigation\NavigateTo.class
 com\ejemplos\testing\serenity\tasks\search\LookForInformation.class
 com\ejemplos\testing\serenity\CucumberTestSuite.class
+com\ejemplos\testing\serenity\stepdefinitions\ServiciosSteps.class
 com\ejemplos\testing\serenity\stepdefinitions\HomeSteps.class
 com\ejemplos\testing\serenity\tasks\search\SearchForm.class
 com\ejemplos\testing\serenity\tasks\navigation\HomePage.class
+com\ejemplos\testing\serenity\tasks\search\Servicios.class
 com\ejemplos\testing\serenity\tasks\navigation\ServiciosPage.class
