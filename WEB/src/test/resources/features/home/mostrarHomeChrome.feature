@@ -21,6 +21,6 @@ Feature: WEB
 	#*Resultado actual:* OK.
 	@TEST_PROYEC-106 @REQ_PROYEC-38 @TESTSET_PROYEC-50 @13 @13.1 @13.1.14 @Chrome @Navegadores
 	Scenario: HU 13 | TS 13.1 | TC 13.1.14 | mostrar Home desde Chrome
-		Given El usuario quiere acceder a la pagina Home desde chrome
-		When el usuario accede a la pagina a traves de la URL LucAPI - Home
-		Then se le muestra la informacion inicial de la pagina.
+		Given El usuario accede a la pagina Home desde chrome
+		When el usuario busca en la pagina Home la etiqueta "title"
+		Then al usuario se le muestra el titulo "LucApi - Home".
