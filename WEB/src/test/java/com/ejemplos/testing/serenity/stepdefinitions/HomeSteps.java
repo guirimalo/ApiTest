@@ -8,11 +8,8 @@ import net.serenitybdd.screenplay.actions.MoveMouse;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.ensure.Ensure;
 
-import org.openqa.selenium.By;
-
 import com.ejemplos.testing.serenity.tasks.navigation.NavigateTo;
 import com.ejemplos.testing.serenity.tasks.search.Home;
-import com.ejemplos.testing.serenity.tasks.search.LookForInformation;
 
 public class HomeSteps {
 
