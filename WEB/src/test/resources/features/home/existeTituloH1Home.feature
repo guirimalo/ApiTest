@@ -21,5 +21,5 @@ Feature: WEB
 	@TEST_PROYEC-115 @REQ_PROYEC-38 @TESTSET_PROYEC-50 @13 @13.1 @13.1.10 @Título
 	Scenario: HU 13 | TS 13.1 | TC 13.1.10 | Título Home
 		Given El usuario accede a la pagina Home
-		When el usuario busca en la pagina Home la etiqueta "h1"
+		When el usuario busca en la pagina Home la etiqueta titulo "h1"
 		Then al usuario se le muestra el titulo h1 "Las Voces del Cambio".
