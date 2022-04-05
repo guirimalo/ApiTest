@@ -8,4 +8,8 @@ public class Home {
     public static final Target TITLE =  
     		Target.the("title").
     		locatedBy("//html/head/title");
+    
+    public static final Target H1 =  
+    		Target.the("titulo h1").
+    		locatedBy("//html/body/header/div/div/div/div/h1");
 }
