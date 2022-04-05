@@ -1,4 +1,37 @@
 -------------------------------------------------------------------------------
 Test set: com.ejemplos.testing.serenity.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.04 s - in com.ejemplos.testing.serenity.CucumberTestSuite
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 17.375 s <<< FAILURE! - in com.ejemplos.testing.serenity.CucumberTestSuite
+WEB #1.HU 13 | TS 13.1 | TC 13.1.10 | Título Home  Time elapsed: 10.3 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: headless chrome=100.0.4896.75)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-055TUGE', ip: '10.89.89.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be77d1fc472d137a6bb479b597852b99, get {url=https://web-static.ivan-aa.repl.co/index.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\ivanj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60565}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60565/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be77d1fc472d137a6bb479b597852b99
+
+WEB #2.HU 13 | TS 13.1 | TC 13.1.14 | mostrar Home desde Chrome  Time elapsed: 1.634 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: headless chrome=100.0.4896.75)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-055TUGE', ip: '10.89.89.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9903dada1a0a8ce739aaf0ba3140337f, get {url=https://web-static.ivan-aa.repl.co/index.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\ivanj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60587/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9903dada1a0a8ce739aaf0ba3140337f
+
+WEB #3.HU 13 | TS 13.1 | TC 13.1.11 |  Texto real Home  Time elapsed: 1.612 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: headless chrome=100.0.4896.75)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-055TUGE', ip: '10.89.89.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee3483de2d3da9e3f3bf5847af0f416d, get {url=https://web-static.ivan-aa.repl.co/index.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\ivanj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60606/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee3483de2d3da9e3f3bf5847af0f416d
+

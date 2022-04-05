@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"WEB","HU 13 | TS 13.1 | TC 13.1.10 | Título Home","SUCCESS","2022-04-05T20:14:00.9914664+02:00[Europe/Madrid]","0.0","11.96"
-"WEB","HU 13 | TS 13.1 | TC 13.1.14 | mostrar Home desde Chrome","SUCCESS","2022-04-05T20:14:13.1268332+02:00[Europe/Madrid]","0.0","6.8"
-"WEB","HU 13 | TS 13.1 | TC 13.1.11 |  Texto real Home","SUCCESS","2022-04-05T20:14:20.036983+02:00[Europe/Madrid]","0.0","13.91"
+"WEB","HU 13 | TS 13.1 | TC 13.1.10 | Título Home","ERROR","2022-04-05T20:45:23.7614073+02:00[Europe/Madrid]","0.0","9.93"
+"WEB","HU 13 | TS 13.1 | TC 13.1.14 | mostrar Home desde Chrome","ERROR","2022-04-05T20:45:33.8624209+02:00[Europe/Madrid]","0.0","1.57"
+"WEB","HU 13 | TS 13.1 | TC 13.1.11 |  Texto real Home","ERROR","2022-04-05T20:45:35.4983411+02:00[Europe/Madrid]","0.0","1.51"
