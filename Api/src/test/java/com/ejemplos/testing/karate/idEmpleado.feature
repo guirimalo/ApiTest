@@ -22,3 +22,22 @@ Feature: Listar empleados y datos
     And print responseStatus
     And print responseTime
     And print responseHeaders 
+
+   @urlKO
+  Scenario: get call test 0 and exists 
+		Given path '0'
+		When method GET
+		Then status 404
+		And print response
+    And print responseStatus
+    And print responseTime
+    And print responseHeaders
+    @urlKO
+  Scenario: get call test -1 and exists 
+		Given path '-1'
+		When method GET
+		Then status 404
+		And print response
+    And print responseStatus
+    And print responseTime
+    And print responseHeaders
