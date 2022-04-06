@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
         		"pretty",
-        		"json:target/serenity-reports/hu13Home_report.json"
+        		"json:target/serenity-reports/HU13_14Total.json"
         },
         features = "src/test/resources/features",
-        tags = "@REQ_PROYEC-38"
+        tags = "@REQ_PROYEC-35"
 )
 public class CucumberTestSuite {}

@@ -14,6 +14,6 @@ public class Servicios {
     
     public static final Target P =
     		Target.the("texto").
-    		locatedBy(".post-subtitle");
+    		locatedBy("/html/body/article/div/div/div/p");
 
 }
