@@ -30,7 +30,7 @@ import net.masterthought.cucumber.ReportBuilder;
 public class TestRunnerv2 {
 	@Test
     public void testParallel() {
-		Results results = Runner.path("classpath:com/ejemplos/testing/karate/empleadosID11.feature").outputCucumberJson(true).parallel(5);
+		Results results = Runner.path("classpath:com/ejemplos/testing/karate/empleadosIDnulo.feature").outputCucumberJson(true).parallel(5);
         assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
     }
 
